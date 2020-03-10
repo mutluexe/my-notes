@@ -62,27 +62,30 @@
 
 `docker run -d name=<custom_name> --link <link_image_name>:<host_name> <image_name>`
 
-## Inspect Container
+# Other Commands
+
+### Inspect Container
 
 `docker inspect <container_name>`
 
-## Show logs
+### Show logs
 
 `docker logs <container_name>`
 
-## ENV Variables
+### ENV Variables
 
 `docker run -e <variable_name>=<value> <container_name>`
 
-## Create own Image
+### Create own Image
 
 1. Create a Dockerfile 
 2. Docker Build
 
 `docker build <project_directory> -t <image_name>:<tag>`
+
 `docker push <image_name>:<tag>`
 
-## Create Network
+### Create Network
 
 `docker network create --driver bridge --subnet 182.18.0.0/16 custom-isolated-network`
 
@@ -90,23 +93,23 @@
 
 `docker network ls`
 
-## Volume
-
 ### Create volume
 
 `docker volume create data_volume` 
 	
 ### Volume mapping: 
 
-`docker run -v /path/to/volume/:/path/to/data <container_name>
+```
+docker run -v /path/to/volume/:/path/to/data <container_name>
 
 or
 
 docker run \ 
 
---mount type=bind, source=/path/to/volume, target=/path/to/data <container_name>`  
+--mount type=bind, source=/path/to/volume, target=/path/to/data <container_name>
+```  
 
-## Docker compose
+# Docker compose
 
 * Create YAML file
 
