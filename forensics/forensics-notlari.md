@@ -112,7 +112,7 @@ Malware Araması (Kesin bilgi vermez)
 
 `volatility.exe -f memdump.mem --profile=PROFILISMI malfind`
 
-Dosyayı elde etmek için
+İlgili "exe" dosyasını elde etmek için
 
 `volatility.exe -f memdump.mem --profile=PROFILISMI procdump --dump-dir ./ -p <PIDDEGERI>`
 
@@ -144,7 +144,7 @@ Security loglarını incelemek için
 
 - LinkParser
 
-Link dosyalarından bilgi elde etmemize yarar. Dosyanın oluşturulduğu bilgisayarın MAC adresine kadar biilgiler verir. 
+Link dosyalarından bilgi elde etmemize yarar. Dosyanın oluşturulduğu bilgisayarın MAC adresine kadar bilgiler verir. 
 
 
 
