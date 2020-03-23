@@ -1,5 +1,12 @@
 # Adli Bilişim/Forensics Notları
 
+İbrahim BALOĞLU tarafından anlatılan Webinar'da almış olduğum notlar. Kendisine çok teşekkür ederim.
+
+Linkler: 
+
+https://twitter.com/4n6Engineer
+https://www.ibrahimbaloglu.com/
+
 ## Adli Bilişim Süreçleri
 
 - Olayı anlama
